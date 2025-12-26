@@ -16,17 +16,16 @@ A .NET 8 application built with Entity Framework Core 8 and SQL Server 2019 for 
 📝 Clean architecture for scalability and maintainabilit
 
 # Tech Stack
-.NET 8
-Entity Framework Core 8
-SQL Server 2019
-C#
+- .NET 8
+- Entity Framework Core 8
+- SQL Server 2019
+- C#
 
 # Add the required EF Core packages to your project via NuGet:
 
-Install-Package Microsoft.EntityFrameworkCore.SqlServer
-Install-Package Microsoft.EntityFrameworkCore.Tools
+- Install-Package Microsoft.EntityFrameworkCore.SqlServer
+- Install-Package Microsoft.EntityFrameworkCore.Tools
 
 # Applying EF Core Migrations and Database Creation Run the following commands in the Package Manager Console:
-
-Add-Migration Mig1
-Update-Database
+- Add-Migration Mig1
+- Update-Database
